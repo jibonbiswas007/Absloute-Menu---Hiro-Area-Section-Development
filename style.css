@@ -1,0 +1,178 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+a {-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.header-area {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.logo {}
+.logo img {
+  margin-top: 13px;
+  max-height: 35px;
+}
+.mainmenu {}
+.mainmenu ul {}
+.mainmenu ul li {
+  display: inline-block;
+}
+.mainmenu ul li a {
+  display: block;
+  padding: 20px;
+  padding-right: 0;
+  padding-left: 40px;
+  color: #fff;
+}
+.mainmenu ul li:hover a {
+    color: #E6AD21;
+}
+.homepage-slides {}
+.single-slide-item {
+  background: #263238;
+  color: #fff;
+}
+.slide-text {
+  padding-bottom: 180px;
+  padding-top: 190px;
+}
+.slide-text h2 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 45px;
+    color: #E6AD21;
+}
+.slide-text p {
+  line-height: 30px;
+}
+.slide-text a.border-btn {
+  color: #fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+.slide-text a.border-btn {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 17px;
+  padding: 10px 20px;
+  margin-top: 25px;
+}
+.slide-text a.border-btn i.fa {
+    margin-left: 10px;
+}
+.slide-text a.border-btn:hover {
+    color: #E6AD21;
+}
+.single-slide-item .slides-img {
+  bottom: 0;
+  max-height: 530px;
+  position: absolute;
+  right: 15px;
+}
+.single-slide-item .row {
+  position: relative;
+}
+.owl-carousel .owl-item .single-slide-item img {
+    width: auto;
+}
+.homepage-slides.owl-carousel .owl-nav div {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transition: .3s;
+  transition: .3s;
+    left: 0;
+}
+.homepage-slides.owl-carousel .owl-nav .owl-next {
+  left: auto;
+  right: 0;
+}
+.homepage-slides:hover .owl-nav .owl-prev {
+    left: 3%;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.homepage-slides:hover .owl-nav .owl-next {
+    left: auto;
+    right: 3%;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    left: auto;
+}
